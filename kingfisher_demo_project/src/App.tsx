@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { flattenObjectHelper } from './utils/helper'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,9 @@ function App() {
     <>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => {setCount((count) => count + 1)
+          flattenObjectHelper()}
+        }>
           count is {count}
         </button>
         <p>
