@@ -3,3 +3,6 @@ The main content of the project resides in 2 folder:
 1. src-> utils: Here we have declared a helper function for flattening the object. 
 Respective unit tests are also included.
 2. src->review: this folder has a single .md file with the code review comments listed. 
+
+Adding the PDF version of the code coverage report.
+[Code coverage report for All files.pdf](https://github.com/user-attachments/files/21893990/Code.coverage.report.for.All.files.pdf)
